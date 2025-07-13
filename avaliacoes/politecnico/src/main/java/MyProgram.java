@@ -7,7 +7,11 @@ import model.Disciplina;
 import model.Grade;
 import model.Politecnico;
 import model.Professor;
+
 import view.Viewers;
+
+import controller.ProfessorController;
+
 
 public class MyProgram {
 
@@ -179,6 +183,6 @@ public class MyProgram {
         for (Disciplina d: aluno.getDisciplinasFaltantes()) {
             d.imprimirRequisitos();
         }
-
+      
     }
 }
